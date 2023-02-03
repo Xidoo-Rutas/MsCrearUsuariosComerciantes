@@ -1,0 +1,29 @@
+{
+  "name": "mscrearusuarioscomerciantes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start" : "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xidoo-Rutas/MsCrearUsuariosComerciantes.git"
+  },
+  "author": "kevincodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xidoo-Rutas/MsCrearUsuariosComerciantes/issues"
+  },
+  "homepage": "https://github.com/Xidoo-Rutas/MsCrearUsuariosComerciantes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "mongoose": "^6.9.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
